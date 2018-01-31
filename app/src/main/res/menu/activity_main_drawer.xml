@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_announcement_black_24dp"
+            android:title="Berita" />
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tentang_pasca"
+            android:title="Tentang Pasca">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_pengantar"
+                    android:icon="@drawable/ic_class_black_24dp"
+                    android:title="Pengantar" />
+                <item
+                    android:id="@+id/nav_sejarah"
+                    android:icon="@drawable/ic_history_black_24dp"
+                    android:title="Sejarah" />
+                <item
+                    android:id="@+id/nav_visi_misi_tujuan"
+                    android:icon="@drawable/ic_event_black_24dp"
+                    android:title="Visi, Misi, Tujuan" />
+                <item
+                    android:id="@+id/nav_fasilitas"
+                    android:icon="@drawable/ic_domain_black_24dp"
+                    android:title="Fasilitas" />
+                <item
+                    android:id="@+id/nav_pendaftaran"
+                    android:icon="@drawable/ic_recent_actors_black_24dp"
+                    android:title="Pendaftaran" />
+                <item
+                    android:id="@+id/nav_peta"
+                    android:icon="@drawable/ic_map_black_24dp"
+                    android:title="Peta Kampus" />
+                <item
+                    android:id="@+id/nav_faq"
+                    android:icon="@drawable/ic_poll_black_24dp"
+                    android:title="FAQ" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_krs"
+            android:icon="@drawable/ic_schedule_black_24dp"
+            android:title="KRS Online MM" />
+    </group>
+
+
+    <!--
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+    -->
+
+</menu>

@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_container"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+
+            <!-- for displaying ads -->
+            <net.devbyzero.app.pascatrisakti.WrapContentViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </net.devbyzero.app.pascatrisakti.WrapContentViewPager>
+
+            <me.relex.circleindicator.CircleIndicator
+                android:id="@+id/lldots"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                />
+
+
+            <!-- for displaying news -->
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/news_list"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                />
+
+
+
+        </LinearLayout>
+
+
+</LinearLayout>
